@@ -85,9 +85,9 @@ Command line examples were written on an `Ubuntu`_ 12.10 desktop environment.
 Everything we do in this book can also be done on other flavors of Linux, on Mac
 OSX - probably even on Windows.
 
-In addition to Go language basics, this book also covers `continuous
-integration`_ tools and techniques popular in the Go community.  You will need
-free accounts on the following services:
+In addition to Go language basics, this book also covers cloud_ deployment and
+`continuous integration`_ tools & techniques popular in the Go community.  You
+will need free accounts on the following services:
 
 * Github_
 * Drone_
@@ -145,7 +145,7 @@ mechanical assistance.
 .. _Iron.io: http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html
 .. _Drone.io: https://groups.google.com/forum/#!topic/golang-nuts/Lo7KP3rWP3o
 .. _TinkerCAD:  http://www.youtube.com/watch?v=JE17r3n1kz4
-.. _PDF: https://media.readthedocs.org/pdf/golang-for-python-programmers/latest/modern-api-development.pdf
+.. _PDF: https://media.readthedocs.org/pdf/golang-for-python-programmers/latest/golang-for-python-programmers.pdf
 .. _ePub: https://media.readthedocs.org/epub/golang-for-python-programmers/latest/golang-for-python-programmers.epub
 .. _Sphinx: http://sphinx-doc.org
 .. _`source code`: http://github.com/jmcvetta/golang-for-python-programmers
@@ -157,6 +157,7 @@ mechanical assistance.
 .. _`Go for Pythonists`: https://github.com/ChimeraCoder/go-for-pythonists
 .. _`Programming in Go: An Introduction`: http://programming-in-go.readthedocs.org
 .. _`continuous integration`: https://en.wikipedia.org/wiki/Continuous_integration
+.. _cloud: http://en.wikipedia.org/wiki/Cloud_computing
 .. _Github:  http://github.com
 .. _Drone: http://drone.io
 .. _Coveralls: http://coveralls.io
