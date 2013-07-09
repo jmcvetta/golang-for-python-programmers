@@ -16,6 +16,15 @@ language. It was first designed and developed at Google Inc. beginning in
 September 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. [#cit1]_
 
 
+Searching
+=========
+
+Since "go" is such a common English word, it is completely useless as a search
+term when googling.  Instead search for "golang".  It is standard practice in
+the community that all Go-related blog posts, Github repos, tweets, job
+postings, etc be tagged with "golang".
+
+
 Who's Using Go?
 ===============
 
