@@ -83,10 +83,10 @@ Course Requirements
 ===================
 
 Command line examples were written on `Ubuntu`_ 12.10 desktop environment.
-Everything we do in this curriculum can also be done on other flavors of Linux,
+Everything we do in this book can also be done on other flavors of Linux,
 on Mac OSX - even on Windows.
 
-In addition to Go language basics, this curriculum also covers `continuous
+In addition to Go language basics, this book also covers `continuous
 integration`_ tools and techniques popular in the Go community.  You will need
 free accounts on the following services:
 
@@ -98,7 +98,7 @@ free accounts on the following services:
 Resources
 =========
 
-The Sphinx_ `source code`_ for this curriculum is available on on Github.
+The Sphinx_ `source code`_ for this book is available on on Github.
 
 The latest version of these notes is published at `Read the Docs`_. It is also
 available in PDF_ and ePub_ formats.
