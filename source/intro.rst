@@ -25,13 +25,13 @@ Google
    publicly disclose which Google services are written in which languages.
    Youtube is known to be powered by Vitess_, an open source, massively scalable
    database multiplexing layer written in Go.
-   
+
 Heroku
    Maintainers of the pq_ driver for PostgreSQL, significant parts of
    Heroku's infrastructure are said to be written in Go.  One component that has
    been open sourced is Doozer_, a consistent distributed data store.
-   
-   
+
+
 Soundcloud
    Internet music thought leaders SoundCloud use a bespoke build and deployment
    system called Bazooka_, designed to be a platform for managing the deployment
@@ -54,7 +54,7 @@ Iron.io
 TinkerCAD
    The backend of cloud-based CAD application TinkerCAD_ is written entirely in
    Go.
-   
+
 Drone.io
    Continuous integration service Drone.io_ is written entirely in Go.
 
@@ -67,18 +67,26 @@ Background Assumptions
 * Basic understanding of internet protocols such as HTTP(S).
 
 
-Student Software
-================
+Course Requirements
+===================
 
 Command line examples were written on `Ubuntu`_ 12.10 desktop environment.
 Everything we do in this curriculum can also be done on other flavors of Linux,
 on Mac OSX - even on Windows.
 
+In addition to Go language basics, this curriculum also covers `continuous
+integration`_ tools and techniques popular in the Go community.  You will need
+free accounts on the following services:
+
+* Github_
+* Drone_
+* Coveralls_
+
 
 Resources
 =========
 
-The source code for this curriculum can be found on Github_.
+The Sphinx_ `source code`_ for this curriculum is available on on Github.
 
 The latest version of these notes is published at `Read the Docs`_. It is also
 available in PDF_ and ePub_ formats.
@@ -129,7 +137,8 @@ The remainder of the curriculum is released under a
 .. _TinkerCAD:  http://www.youtube.com/watch?v=JE17r3n1kz4
 .. _PDF: https://media.readthedocs.org/pdf/golang-for-python-programmers/latest/modern-api-development.pdf
 .. _ePub: https://media.readthedocs.org/epub/golang-for-python-programmers/latest/golang-for-python-programmers.epub
-.. _Github: http://github.com/jmcvetta/golang-for-python-programmers
+.. _Sphinx: http://sphinx-doc.org
+.. _`source code`: http://github.com/jmcvetta/golang-for-python-programmers
 .. _`Read the Docs`: http://golang-for-python-programmers.readthedocs.org/
 .. _`Jason McVetta`: mailto:jason.mcvetta@gmail.com
 .. _`terms of the GPL v3`: http://www.gnu.org/copyleft/gpl.html
@@ -139,6 +148,10 @@ The remainder of the curriculum is released under a
 .. _`An Introduction to Programming in Go`:  http://www.golang-book.com/
 .. _`Go for Pythonists`: https://github.com/ChimeraCoder/go-for-pythonists
 .. _`Programming in Go: An Introduction`: http://programming-in-go.readthedocs.org
+.. _`continuous integration`: https://en.wikipedia.org/wiki/Continuous_integration
+.. _Github:  http://github.com
+.. _Drone: http://drone.io
+.. _Coveralls: http://coveralls.io
 
 
 .. rubric:: Citations
