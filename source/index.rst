@@ -18,16 +18,10 @@ Contents
 
    intro
    setup
+   go-tool
    layout
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* :ref:`Search this Book <search>`
 
 
 Copying
