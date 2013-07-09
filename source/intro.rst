@@ -107,24 +107,6 @@ Further Reading
 * `Go for Pythonists`_ by Aditya Mukurjee
 
 
-Copying
-=======
-
-
-All source code used in this curriculum is Free Software, released under the
-`terms of the GPL v3`_.
-
-The remainder of the curriculum is released under a
-`Creative Commons Attribution-ShareAlike 3.0 Unported License`_.
-
-.. raw:: html
-
-   <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
-
-
-`Sing along with Richard Stallman`_, founder of the Free Software movement!
-
-
 .. _Vitess: https://code.google.com/p/vitess/
 .. _pq: https://github.com/lib/pq
 .. _Doozer: https://github.com/ha/doozerd
@@ -141,10 +123,7 @@ The remainder of the curriculum is released under a
 .. _`source code`: http://github.com/jmcvetta/golang-for-python-programmers
 .. _`Read the Docs`: http://golang-for-python-programmers.readthedocs.org/
 .. _`Jason McVetta`: mailto:jason.mcvetta@gmail.com
-.. _`terms of the GPL v3`: http://www.gnu.org/copyleft/gpl.html
 .. _Ubuntu: http://www.ubuntu.com
-.. _`Sing along with Richard Stallman`: https://upload.wikimedia.org/wikipedia/commons/9/9c/Stallman_free_software_song.ogv
-.. _`Creative Commons Attribution-ShareAlike 3.0 Unported License`: http://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 .. _`An Introduction to Programming in Go`:  http://www.golang-book.com/
 .. _`Go for Pythonists`: https://github.com/ChimeraCoder/go-for-pythonists
 .. _`Programming in Go: An Introduction`: http://programming-in-go.readthedocs.org
