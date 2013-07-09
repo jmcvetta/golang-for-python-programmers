@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+// Greeting returns a pleasant, semi-useful greeting.
 func Greeting() string {
 	return "Hello world, the time is: " + time.Now().String()
 }
