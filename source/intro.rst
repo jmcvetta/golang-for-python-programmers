@@ -64,11 +64,10 @@ Iron.io
    greater load with 2 workers than with 30 Ruby workers.
 
 TinkerCAD
-   The backend of cloud-based CAD application TinkerCAD_ is written entirely in
-   Go.
+   Cloud-based CAD application TinkerCAD_ is written in Go.
 
 Drone.io
-   Continuous integration service Drone.io_ is written entirely in Go.
+   Continuous integration service Drone.io_ is written in Go.
 
 
 Background Assumptions
@@ -79,12 +78,12 @@ Background Assumptions
 * Basic understanding of internet protocols such as HTTP(S).
 
 
-Course Requirements
-===================
+Requirements
+============
 
-Command line examples were written on `Ubuntu`_ 12.10 desktop environment.
-Everything we do in this book can also be done on other flavors of Linux,
-on Mac OSX - even on Windows.
+Command line examples were written on an `Ubuntu`_ 12.10 desktop environment.
+Everything we do in this book can also be done on other flavors of Linux, on Mac
+OSX - probably even on Windows.
 
 In addition to Go language basics, this book also covers `continuous
 integration`_ tools and techniques popular in the Go community.  You will need
@@ -93,6 +92,7 @@ free accounts on the following services:
 * Github_
 * Drone_
 * Coveralls_
+* Heroku_
 
 
 Resources
@@ -109,7 +109,7 @@ Related Courses
 
 .. todo::
 
-   Add related courses
+   Add related courses.
 
 
 Further Reading
@@ -119,6 +119,18 @@ Further Reading
   valuable documentation resource for Go programmers.
 * `An Introduction to Programming in Go`_ by Caleb Doxsey
 * `Go for Pythonists`_ by Aditya Mukurjee
+
+
+About the Author
+================
+
+`Jason McVetta`_ is an independent consultant, teacher, and Free Software
+activist based in beautiful-but-too-cold San Francisco.  He studied government
+and philosophy in college, but was unwilling to sell his soul to the
+Demopublicratican Party, so he went to work in software. After 12 years as a
+professional Pythonist he met his new love, Go.   He is able to fly without
+mechanical assistance.
+
 
 
 .. _Vitess: https://code.google.com/p/vitess/
@@ -148,6 +160,8 @@ Further Reading
 .. _Github:  http://github.com
 .. _Drone: http://drone.io
 .. _Coveralls: http://coveralls.io
+.. _Heroku:  http://heroku.com
+.. _`Jason McVetta`: mailto:jason.mcvetta@gmail.com
 
 
 .. rubric:: Citations
