@@ -2,7 +2,7 @@
 Go for Python Programmers
 *************************
 
-This curriculum is intended to provide a solid introduction to the Go_ language
+This book is intended to provide a solid introduction to the Go_ language
 for experienced Python programmers.
 
 Classroom instruction in Go, Python, SQL, REST API development, cloud
@@ -34,10 +34,10 @@ Copying
 =======
 
 
-All source code used in this curriculum is Free Software, released under the
+All source code used in this book is Free Software, released under the
 `terms of the GPL v3`_.
 
-The remainder of the curriculum is released under a
+The remainder of the book is released under a
 `Creative Commons Attribution-ShareAlike 3.0 Unported License`_.
 
 .. raw:: html
@@ -46,6 +46,21 @@ The remainder of the curriculum is released under a
 
 
 `Sing along with Richard Stallman`_, founder of the Free Software movement!
+
+
+Payment
+=======
+
+This is a Free book, but you are more than welcome to pay me for it!  You are
+under no obligation, legal or moral, to do so.  But I can always use a couple
+bucks for coffee.  =)
+
+.. raw:: html
+
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> <input type="hidden" name="cmd" value="_s-xclick"> <input type="hidden" name="hosted_button_id" value="J9TV6DZ599TB6"> <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"> </form>
+
+
+
 
 
 
