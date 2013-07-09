@@ -117,3 +117,59 @@ We can build the application with the ``go build`` command:
 .. _`distributed version control systems`: https://en.wikipedia.org/wiki/Distributed_revision_control
 .. _Git: http://git-scm.com/
 .. _Mercurial: http://mercurial.selenic.com/
+
+
+Dependencies
+============
+
+The ``go`` tool can automatically install dependencies.  They are installed in
+the same URL-derived folder heirarchy alongside your code.
+
+Let's embelish our ``Greeting()`` function by making it return the current
+``PATH`` as well.  Although this could be done using nothing but the standard
+library, for purpose of instruction we will use the popular env_ package.
+
+.. literalinclude:: examples/go/hello_deps/src/github.com/jmcvetta/hello/greeter/greeter.go
+   :language: go
+   :linenos:
+   :lines: 5-
+
+We can automatically install our new dependency with the ``go get`` command:
+
+.. code-block:: console
+
+   $ go get -v .
+   github.com/darkhelmet/env (download)
+   github.com/darkhelmet/env
+   github.com/jmcvetta/hello/greeter
+   github.com/jmcvetta/hello
+
+Now we the ``env`` package installed, and our file system looks like::
+
+   $GOPATH/
+      src/
+         github.com/
+            darkhelmet/
+               env/
+                  env.go
+                  env_test.go
+                  format.bash
+                  LICENSE.md
+                  README.md
+            jmcvetta/
+               hello/
+                  hello.go
+                  greeter/
+                     greeter.go
+
+
+We can try out our new Hello World with the ``go run`` command, which build the application then runs it.
+
+.. code-block:: console
+
+   $ go run hello.go
+   Hello world, the time is 2013-07-08 20:36:31.496236239 -0700 PDT and your PATH is /home/jason/.rvm/gems/ruby-1.9.2-p320/bin:/home/jason/.rvm/gems/ruby-1.9.2-p320@global/bin:/home/jason/.rvm/rubies/ruby-1.9.2-p320/bin:/home/jason/.rvm/bin:/usr/local/heroku/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/jason/opt/bin:/home/jason/.scripts:/home/jason/opt/go/bin:/home/jason/work/go/bin:/home/jason/.rvm/bin
+
+
+
+.. _env:  https://github.com/darkhelmet/env
