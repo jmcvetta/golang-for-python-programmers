@@ -112,6 +112,8 @@ Related Courses
 Further Reading
 ===============
 
+* `Effective Go`_ by the creators of the language.  Perhaps the single most
+  valuable documentation resource for Go programmers.
 * `An Introduction to Programming in Go`_ by Caleb Doxsey
 * `Go for Pythonists`_ by Aditya Mukurjee
 
@@ -133,6 +135,7 @@ Further Reading
 .. _`Read the Docs`: http://golang-for-python-programmers.readthedocs.org/
 .. _`Jason McVetta`: mailto:jason.mcvetta@gmail.com
 .. _Ubuntu: http://www.ubuntu.com
+.. _`Effective Go`: http://golang.org/doc/effective_go.html
 .. _`An Introduction to Programming in Go`:  http://www.golang-book.com/
 .. _`Go for Pythonists`: https://github.com/ChimeraCoder/go-for-pythonists
 .. _`Programming in Go: An Introduction`: http://programming-in-go.readthedocs.org
