@@ -71,6 +71,46 @@ where the details on the last few lines reflect the operating system,
 architecture, and root directory used during the install.
 
 
+Environment Variables
+=====================
+
+These instructions assume Go is installed at ``~/go``.  If you installed
+elsewhere, change the commands to reflect your actual installation path.
+
+The Go tools look for several environment variables.  Typically these are set in
+your shell profile.  If you are using Bash, add the following lines to your
+``~/.bashrc``::
+
+   export GOBIN=~/go/bin
+   export GOARCH=amd64
+   export GOOS=linux
+   export GOROOT=~/go
+
+
+PATH
+----
+
+You probably also want to add the path to your ``go/bin`` directory to your ``PATH``::
+
+   export PATH=$PATH:/home/you/go/bin
+
+Reload your ``~/.bashrc`` file to active the new environment variables.  Once
+the ``go`` binary is on your ``PATH``, you can confirm your install is working
+correctly by running the ``go version`` command.
+
+.. code-block:: console
+
+   $ go version
+   go version go1.1.1 linux/amd64
+
+
+GOPATH
+------
+
+
+
+
+
 .. _`Getting Started`: http://golang.org/doc/install
 .. _`official downloads page`: https://code.google.com/p/go/downloads/list
 .. _`Installing Go from source`: http://golang.org/doc/install/source
