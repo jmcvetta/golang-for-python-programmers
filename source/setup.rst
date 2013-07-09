@@ -107,6 +107,13 @@ correctly by running the ``go version`` command.
 GOPATH
 ------
 
+The ``GOPATH`` environment variable is used to specify directories outside of
+``$GOROOT`` that contain Go source code.  Typically ``GOPATH`` is set to the
+root of a workspace.
+
+See :doc:`Code Layout <code-layout>` for more detail.
+
+
 
 
 
