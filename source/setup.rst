@@ -114,6 +114,45 @@ root of a workspace.
 See :doc:`Code Layout <code-layout>` for more detail.
 
 
+Intellij IDE
+============
+
+Go bindings are available for many popular programming editors and IDEs.  As Go
+is still a relatively young language, none of these bindings are as
+full-featured as those for a mature language like Java.  However a good
+`integrated development environment`_, even if not perfect, is still a valuable
+tool.
+
+Currently (July 2013) the IDE with the best Go support is `Intellij IDEA`_.
+
+
+Download
+--------
+
+Download the Free community edition of Intellij IDEA appropriate for your
+platform from the official `download page`_.
+
+Untar the downloaded tarball, descend into the resulting folder, and start
+Intellij by running:
+
+.. code-block:: console
+
+   $ ./bin/idea.sh
+
+
+
+Install Go Plugin
+-----------------
+
+Open the Settings window (``File -> Settings``) and go to ``Plugins`` under
+``IDE Settings``.  Click on ``Browse repositories``, and type "golang" into the
+search form.  There should be only one result, "golang.org support".
+Double-click on it to install, and close the settings.  You will be prompted to
+restart Intellij.
+
+If you live vi-keys, you may also wish to install the ``IdeaVim`` plugin.
+
+
 
 
 
@@ -122,3 +161,6 @@ See :doc:`Code Layout <code-layout>` for more detail.
 .. _`official downloads page`: https://code.google.com/p/go/downloads/list
 .. _`Installing Go from source`: http://golang.org/doc/install/source
 .. _`Install C tools`: https://code.google.com/p/go-wiki/wiki/InstallFromSource#Install_C_tools
+.. _`integrated development environment`: https://en.wikipedia.org/wiki/Integrated_development_environment
+.. _`Intellij IDEA`: https://www.jetbrains.com/idea/
+.. _`download page`: https://www.jetbrains.com/idea/download/
