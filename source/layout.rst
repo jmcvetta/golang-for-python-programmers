@@ -57,10 +57,11 @@ well-structured codebase that encourages modular code and keeps things orderly
 as a project grows in size.
 
 
-Typically Go code is developed using distributed version control systems like
-Git or Mercurial.  Therefore import paths are conventionally named based on the
-Github etc URL.  The Go toolchain is aware of this, and can gracefully handle
-automatic dependency installation if your project conforms to the convention.
+Typically Go code is developed using `distributed version control systems`_ like
+Git_ or Mercurial_.  Therefore import paths are conventionally named based on
+the Github etc URL.  The Go toolchain is aware of this, and can gracefully
+handle automatic dependency installation if your project conforms to the
+convention.
 
 Imagine for a moment we have created a Github repository named ``hello`` for our
 Hello World example.  We would create a file layout like this::
@@ -111,3 +112,8 @@ We can build the application with the ``go build`` command:
 
    $ ./hello
    Hello world, the time is: 2013-07-08 19:49:39.946836748 -0700 PDT
+
+
+.. _`distributed version control systems`: https://en.wikipedia.org/wiki/Distributed_revision_control
+.. _Git: http://git-scm.com/
+.. _Mercurial: http://mercurial.selenic.com/
