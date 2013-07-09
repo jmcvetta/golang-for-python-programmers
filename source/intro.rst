@@ -40,6 +40,9 @@ Heroku
    Heroku's infrastructure are said to be written in Go.  One component that has
    been open sourced is Doozer_, a consistent distributed data store.
 
+Canonical
+   The company behind Ubuntu Linux recently rewrote_ its Juju_ devops management
+   application from Python to Go, with pleasing results.
 
 Soundcloud
    Internet music thought leaders SoundCloud use a bespoke build and deployment
@@ -121,6 +124,8 @@ Further Reading
 .. _Vitess: https://code.google.com/p/vitess/
 .. _pq: https://github.com/lib/pq
 .. _Doozer: https://github.com/ha/doozerd
+.. _rewrote: https://www.youtube.com/watch?v=USr0Bvg1ZOo
+.. _Juju: https://juju.ubuntu.com/
 .. _Bazooka: http://backstage.soundcloud.com/2012/07/go-at-soundcloud/
 .. _Bitly: http://word.bitly.com/post/29550171827/go-go-gadget
 .. _nsq: https://github.com/bitly/nsq
