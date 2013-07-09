@@ -18,7 +18,7 @@ Contents
 
    intro
    setup
-   code-layout
+   layout
 
 
 

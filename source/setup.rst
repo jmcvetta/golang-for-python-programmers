@@ -1,6 +1,6 @@
-**********
-Tool Setup
-**********
+********************
+Installation & Setup
+********************
 
 Installing Go
 =============
@@ -111,7 +111,7 @@ The ``GOPATH`` environment variable is used to specify directories outside of
 ``$GOROOT`` that contain Go source code.  Typically ``GOPATH`` is set to the
 root of a workspace.
 
-See :doc:`Code Layout <code-layout>` for more detail.
+See :doc:`Project Layout <layout>` for more detail.
 
 
 Intellij IDE
@@ -140,7 +140,6 @@ Intellij by running:
    $ ./bin/idea.sh
 
 
-
 Install Go Plugin
 -----------------
 
@@ -150,10 +149,7 @@ search form.  There should be only one result, "golang.org support".
 Double-click on it to install, and close the settings.  You will be prompted to
 restart Intellij.
 
-If you live vi-keys, you may also wish to install the ``IdeaVim`` plugin.
-
-
-
+If you like vi-keys, you may also wish to install the ``IdeaVim`` plugin.
 
 
 
