@@ -304,3 +304,7 @@ epub_copyright = u'2013, Jason McVetta'
 
 # If false, no index is generated.
 #epub_use_index = True
+
+
+# ToDo
+todo_include_todos = True
