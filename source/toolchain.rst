@@ -64,12 +64,13 @@ as a web page.
 
 
 godoc.org
-=========
+---------
 
 The website godoc.org_ extracts and displays automatic documentation, much like
-the ``godoc`` command, for any Go module specified by its import URL. You may
-also want to check out gowalker.org_, an enhanced version of godoc.org that
-displays code snippets alongside the documentation.
+the ``godoc`` command, for any open source Go module specified by its import URL. 
+
+See :doc:`GoDoc.org <godoc>` for more detail.
+
 
 
 .. _godoc.org: http://godoc.org
