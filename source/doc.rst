@@ -123,6 +123,16 @@ declaration is presented, such a comment can often be perfunctory.
    )
 
 
+Uncommented Code Is Broken
+--------------------------
+
+Seriously, if your code doesn't have good doc comments, it is by definition lousy code.  
+
+.. todo:: 
+
+   Write a short diatribe on the importance of code commentary.
+
+
 ``godoc`` tool
 ==============
 
