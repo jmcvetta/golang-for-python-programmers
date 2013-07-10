@@ -19,6 +19,7 @@ Contents
    intro
    setup
    toolchain
+   godoc
    layout
 
 * :ref:`Search this Book <search>`
