@@ -18,7 +18,7 @@ Contents
 
    intro
    setup
-   go-tool
+   toolchain
    layout
 
 * :ref:`Search this Book <search>`
