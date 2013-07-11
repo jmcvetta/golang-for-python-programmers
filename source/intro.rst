@@ -15,6 +15,50 @@ Go is an open source, compiled, garbage-collected, concurrent system programming
 language. It was first designed and developed at Google Inc. beginning in
 September 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. [#cit1]_
 
+Minimalist
+----------
+
+The creators of Go advocate a minimalist approach to language design.  This
+minimal elegance is often contrasted with the "kitchen sink" approach of C++.
+
+Opinionated
+-----------
+
+Like Python, in Go there is often "one right way to do things", although that
+phrase is not so commonly used as in the Pythonist community.  The compiler is
+renowed for its strictness.  Things that would at most be warnings in other
+languages - e.g. unused imports, unused variables - are hard compiler errors in
+Go.  At first that may seem like a draconian buzzkill - but soon you will begin
+to appreciate how clean and cruft-free it keeps your code.
+
+Fast
+----
+
+No question about it - Go is blazing fast.  Despite a still young compiler with
+minimal speed optimizations, Go regularly scores at or near the top of
+inter-language benchmark comparisons.  That's because Go is statically typed,
+compiled - and although garbage-collected, allows the programmer some degree of
+control over memory usage.  
+
+Batteries Included
+------------------
+
+To a large degree Go follows Python's "batteries included" philosophy.  Although
+there are not yet as many 3rd party libraries as there are for Python,
+nevertheless Go's standard library provides a solid foundation for many modern
+programming tasks.  Built-in support for serving HTTP, de/serializing JSON,
+template rendering, and strong cryptography make Go ideal for modern web
+services development.
+
+Productive
+----------
+
+Go is frequently - and favorably - compared with Python and Ruby for programmer
+productivity.  It's clean elegant syntax, unobtrusive static typing, optional
+duck typing, batteries-included standard library, lighting-fast compiliation,
+and support for a variety of modern continuous integrtion tools make Go a
+productivity champion.
+
 
 Searching
 =========
