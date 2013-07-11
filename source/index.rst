@@ -18,6 +18,7 @@ Contents
 
    intro
    setup
+   hello
    doc
    toolchain
    layout

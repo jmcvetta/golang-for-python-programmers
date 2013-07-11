@@ -4,7 +4,13 @@
 # terms of the GPL v3.  See http://www.gnu.org/copyleft/gpl.html for details.
 # Resist intellectual serfdom - the ownership of ideas is akin to slavery.
 
-from greeter import greeting
+import time
+
+
+def greeting():
+	'''Returns a greeting with the current time.'''
+	return "Hello world, the time is: " + time.ctime()
+
 
 def main():
     print greeting()
@@ -12,3 +18,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
