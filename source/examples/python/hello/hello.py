@@ -8,8 +8,8 @@ import time
 
 
 def greeting():
-	'''Returns a greeting with the current time.'''
-	return "Hello world, the time is: " + time.ctime()
+    '''Returns a pleasant, semi-useful greeting.'''
+    return "Hello world, the time is: " + time.ctime()
 
 
 def main():
