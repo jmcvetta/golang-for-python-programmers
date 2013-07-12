@@ -10,6 +10,7 @@ for experienced Python programmers.
 .. toctree::
    :maxdepth: 2
 
+   about
    intro
    setup
    hello
