@@ -1,0 +1,46 @@
+$ godoc time Now String
+PACKAGE DOCUMENTATION
+
+package time
+    import "time"
+
+[ ... ]
+
+type Time struct {
+    // contains filtered or unexported fields
+}
+    A Time represents an instant in time with nanosecond precision.
+
+    Programs using times should typically store and pass them as values, not
+    pointers. That is, time variables and struct fields should be of type
+    time.Time, not *time.Time. A Time value can be used by multiple
+    goroutines simultaneously.
+
+    Time instants can be compared using the Before, After, and Equal
+    methods. The Sub method subtracts two instants, producing a Duration.
+    The Add method adds a Time and a Duration, producing a Time.
+
+    The zero value of type Time is January 1, year 1, 00:00:00.000000000
+    UTC. As this time is unlikely to come up in practice, the IsZero method
+    gives a simple way of detecting a time that has not been initialized
+    explicitly.
+
+    Each Time has associated with it a Location, consulted when computing
+    the presentation form of the time, such as in the Format, Hour, and Year
+    methods. The methods Local, UTC, and In return a Time with a specific
+    location. Changing the location in this way changes only the
+    presentation; it does not change the instant in time being denoted and
+    therefore does not affect the computations described in earlier
+    paragraphs.
+
+func Now() Time
+    Now returns the current local time.
+
+
+func (t Time) String() string
+    String returns the time formatted using the format string
+
+        "2006-01-02 15:04:05.999999999 -0700 MST"
+        
+        
+[ ... ]

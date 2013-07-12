@@ -12,7 +12,7 @@ import (
 
 // greeting returns a pleasant, semi-useful greeting.
 func greeting() string {
-	return "Hello world, the time is: " time.Now().String()
+	return "Hello world, the time is: " + time.Now().String()
 }
 
 // needlesslyComplexGreeting uses needlessly complex operations to return a
