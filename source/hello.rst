@@ -220,7 +220,7 @@ available as a command after running ``go install``.
    $ ls
    hello.go
    
-   $ go install -v 
+   $ go install -v .
    hello
    
    $ ls
