@@ -15,7 +15,7 @@ In Python it looks something like this:
 It's not that different in Go:
 
 
-.. literalinclude:: examples/go/hello/hello.go
+.. literalinclude:: examples/go/src/hello/hello.go
    :linenos:
    :language: go
    :lines: 5-17,28-
@@ -50,7 +50,7 @@ The ``package`` declaration is preceded by a comment, called the *package
 comment*. Automatic documentation tools like ``godoc`` extract the package
 commment as the description of your program.
 
-.. literalinclude:: examples/go/hello/hello.go
+.. literalinclude:: examples/go/src/hello/hello.go
    :language: go
    :lines: 5-6
 
@@ -65,7 +65,7 @@ from the standard library.  By convention, 3rd-party packages are named after
 their repository URL.  For example, my Neo4j library hosted on Github would be
 imported as ``"github.com/jmcvetta/neo4j"``.
 
-.. literalinclude:: examples/go/hello/hello.go
+.. literalinclude:: examples/go/src/hello/hello.go
    :language: go
    :lines: 7-11
 
@@ -79,7 +79,7 @@ Java and C, in Go the type declaration *follows* the function name.  Like all
 good function declarations, this one includes a doc comment describing what it
 does.
 
-.. literalinclude:: examples/go/hello/hello.go
+.. literalinclude:: examples/go/src/hello/hello.go
    :language: go
    :lines: 13-14
 
@@ -117,7 +117,7 @@ may only be assigned values of its declared type.  Go also provides an operator,
 Let's look at a needlessly complex version of our greeting function to see how
 varable declaration and assignment work.
 
-.. literalinclude:: examples/go/hello/hello.go
+.. literalinclude:: examples/go/src/hello/hello.go
    :language: go
    :lines: 18-26
    :linenos:
@@ -146,6 +146,89 @@ program, with the entry point at ``main()``.  The function ``main()`` has no
 arguments and no return value.  Command line arguments - called "argv" in many
 languages - are available from the standard library, either raw from
 ``os.Args``, or with higher level abstraction from the package ``flag``.
+
+
+Compiling
+=========
+
+Python is an interpretted language - our program can be run immediately with the
+``python`` command:
+
+.. code-block:: console
+
+   $ python hello.py 
+   Hello world, the time is: Sat Jul 13 12:49:14 2013
+
+Go on the other hand is a compiled language - our source code must first be
+compiled into an executable binary before we can run it.  We will use the ``go``
+command line tool to access the compiler.
+
+``go run``
+----------
+
+As a convenience, the ``go`` tool provides a ``run`` command that first compiles
+the specified file(s), then executes the resulting binary.  Given Go's
+lightning-quick compile times, using ``go run`` can feel similar to working with
+an interpretted language like Python or Ruby.  
+
+.. code-block:: console
+
+   $ go run hello.go 
+   Hello world, the time is: 2013-07-13 13:01:23.837155926 -0700 PDT
+   
+Only programs that declare ``package main`` -- in other words, those which can
+be compiled into an executable application -- can be run with ``go run``. Note
+that all files to be compiled must be specified on the command line, even tho
+they are all declared as part of the same package.
+
+Running code with ``go run`` does *not* leave an executable binary file laying
+around - it is deleted immediately after it is run.
+
+``go build``
+------------
+
+We can use the ``go build`` command to compile our code into an executable
+binary.  The binary is statically linked, and can be redistributed (on the same
+platform) just by copying it, with no dependencies.  The binary file is created
+in the same folder that contains the source code.
+
+.. code-block:: console
+
+   $ ls
+   hello.go
+   
+   $ go build -v .
+   hello
+   
+   $ ls
+   hello*  hello.go
+   
+   $ ./hello 
+   Hello world, the time is: 2013-07-13 13:07:57.150564433 -0700 PDT
+   
+   
+``go install``
+--------------
+
+The ``go install`` command works like ``go build``, except instead of putting
+the binary file in the source code folder, it puts installs it to
+``$GOPATH/bin``.  If ``$GOPATH/bin`` is on your ``$PATH``, your program will be
+available as a command after running ``go install``.  
+
+.. code-block:: console
+
+   $ ls
+   hello.go
+   
+   $ go install -v 
+   hello
+   
+   $ ls
+   hello.go
+   
+   $ ls $GOPATH/bin
+   hello*
+   
 
 
 .. _`zero value`: http://golang.org/ref/spec#The_zero_value
