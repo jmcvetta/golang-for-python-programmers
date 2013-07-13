@@ -25,7 +25,7 @@ Resources
 
 The Sphinx_ `source code`_ for this book is available on on Github.
 
-The latest version of these notes is published at `Read the Docs`_. It is also
+The latest version of this book is published at `Read the Docs`_. It is also
 available in PDF_ and ePub_ formats.
 
 
@@ -33,9 +33,9 @@ Classroom Instruction
 =====================
 
 Classroom instruction in Go, Python, SQL, REST API development, cloud
-deployment, and continuous integration is available from the author in San
-Francisco / Silicon Valley, or on demand anywhere in the world, for groups of
-five to twelve students.  `Contact the author`_ for more information.
+deployment, and continuous integration is available from the author in Silicon
+Valley, or on demand anywhere in the world, for groups of five to twelve
+students.  `Contact the author`_ for more information.
 
 
 Related Courses
