@@ -9,7 +9,7 @@ publish your own Open Source packages.  A well-documented package attracts more
 users, and reflects well on its author.
 
 
-Documenting Your Code
+Self-Documenting Code
 =====================
 
 Go code is `self-documenting`_, meaning the source code explains itself without
