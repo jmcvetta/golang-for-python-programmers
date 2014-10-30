@@ -2,7 +2,7 @@
 Project Layout
 **************
 
-Just as ``$PYTHONPATH`` controls where the Python interpretter will look for
+Just as ``$PYTHONPATH`` controls where the Python interpreter will look for
 source files, ``$GOPATH`` controls where the Go compiler and tools will look for
 source code.
 
