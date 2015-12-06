@@ -65,8 +65,8 @@ Searching
 
 Since "go" is such a common English word, it is completely useless as a search
 term when googling.  Instead search for "golang".  It is standard practice in
-the community that all Go-related blog posts, Github repos, tweets, job
-postings, etc be tagged with "golang".
+the community that all Go-related blog posts, GitHub repos, tweets, job
+postings, etc., be tagged with "golang".
 
 
 Who's Using Go?
@@ -76,7 +76,7 @@ Google
    Home of the Go authors and core team, signifiant parts of the Google
    infrastructure are thought to be written in Go.  The company however does not
    publicly disclose which Google services are written in which languages.
-   Youtube is known to be powered by Vitess_, an open source, massively scalable
+   YouTube is known to be powered by Vitess_, an open source, massively scalable
    database multiplexing layer written in Go.
 
 Heroku
@@ -127,10 +127,10 @@ Requirements
 
 Command line examples were written on an `Ubuntu`_ 12.10 desktop environment.
 Everything we do in this book can also be done on other flavors of Linux, on Mac
-OSX - probably even on Windows.
+OSX—probably even on Windows.
 
 In addition to Go language basics, this book also covers cloud_ deployment and
-`continuous integration`_ tools & techniques popular in the Go community.  You
+`continuous integration`_ tools and techniques popular in the Go community.  You
 will need free accounts on the following services:
 
 * Github_
