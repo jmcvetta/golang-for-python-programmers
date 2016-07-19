@@ -48,7 +48,7 @@ Every ``.go`` file in the same folder must have the same package name.
 
 The ``package`` declaration is preceded by a comment, called the *package
 comment*. Automatic documentation tools like ``godoc`` extract the package
-commment as the description of your program.
+comment as the description of your program.
 
 .. literalinclude:: examples/go/src/hello/hello.go
    :language: go
@@ -115,7 +115,7 @@ may only be assigned values of its declared type.  Go also provides an operator,
 ``:=``, that combined declaration and assignment in the same statement.
 
 Let's look at a needlessly complex version of our greeting function to see how
-varable declaration and assignment work.
+variable declaration and assignment work.
 
 .. literalinclude:: examples/go/src/hello/hello.go
    :language: go
