@@ -211,7 +211,7 @@ in the same folder that contains the source code.
 --------------
 
 The ``go install`` command works like ``go build``, except instead of putting
-the binary file in the source code folder, it puts installs it to
+the binary file in the source code folder, it installs it to
 ``$GOPATH/bin``.  If ``$GOPATH/bin`` is on your ``$PATH``, your program will be
 available as a command after running ``go install``.  
 
