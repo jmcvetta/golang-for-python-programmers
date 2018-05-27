@@ -117,7 +117,7 @@ Drone.io
 Background Assumptions
 ======================
 
-* Familiarity with Python or a similar dynamic, interpretted language.
+* Familiarity with Python or a similar dynamic, interpreted language.
 * Comfortable working on the UNIX command line.
 * Basic understanding of internet protocols such as HTTP(S).
 
