@@ -55,7 +55,7 @@ Productive
 
 Go is frequently - and favorably - compared with Python and Ruby for programmer
 productivity.  Its clean and elegant syntax, unobtrusive static typing, optional
-duck typing, batteries-included standard library, lighting-fast compiliation,
+duck typing, batteries-included standard library, lightning-fast compilation,
 and support for a variety of modern continuous integration tools make Go a
 productivity champion.
 
