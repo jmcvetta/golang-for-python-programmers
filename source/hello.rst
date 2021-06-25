@@ -90,7 +90,7 @@ Every function that declares a return type, must end with a ``return``
 statement.  In this case we add a literal string to the output of
 ``time.Now().String()``  
 
-Let's look at the documentatation for ``time``.  We can see that ``time.Now()``
+Let's look at the documentation for ``time``.  We can see that ``time.Now()``
 returns an instance of type ``Time``.  That instance, in turn, exports a
 ``String()`` method that unsurprisingly returns a ``string``.  Using the
 addition operator with two strings results in the strings being concatenated. 
